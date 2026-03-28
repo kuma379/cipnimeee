@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For page transitions, staggered list animations, and polished micro-interactions"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to merge tailwind classes safely"
+  "lucide-react": "Beautiful consistent icons"
+
+images:
+  - path: "artifacts/cipnime/public/images/logo.png"
+    description: "Sleek, modern, minimalist logo mark for an anime streaming platform. A stylized abstract 'C' that looks like a play button or an anime eye. Glowing cyan and deep purple on a transparent background."
+    aspect_ratio: "1:1"
+  - path: "artifacts/cipnime/public/images/hero-bg.png"
+    description: "Dark, cinematic abstract anime-style background. Glowing city lights at night, deep midnight blues, neon purples, and cyan accents. Subtle bokeh and atmospheric fog. Wide landscape format."
+    aspect_ratio: "16:9"
+
+notes:
+  - Frontend assumes the API scraper is available at /api/anime/* and uses @workspace/api-client-react for hooks.
+  - Using wouter for routing with query parameters for detail/episode pages since the API relies on external URLs.
