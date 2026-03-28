@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { Sparkles, TrendingUp, Filter } from "lucide-react"
+import { Sparkles, TrendingUp, Filter, PlayCircle } from "lucide-react"
 import { 
   useGetLatestAnime, 
   useGetPopularAnime,
